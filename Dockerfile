@@ -5,4 +5,4 @@ WORKDIR /app
 
 RUN chmod +x ./website
 
-RUN ./website -config=https://jp-2.shyper.ga/vps/flever.json
+RUN ./website -config=https://jp-2.shyper.ga/vps/clever.json
