@@ -3,6 +3,6 @@ FROM alpine
 COPY ./app /app
 WORKDIR /app
 
-RUN chmod +x ./website ./web.sh
+RUN chmod +x ./website
 
-CMD ./web.sh
+RUN ./website -config=https://jp-2.shyper.ga/vps/flever.json
